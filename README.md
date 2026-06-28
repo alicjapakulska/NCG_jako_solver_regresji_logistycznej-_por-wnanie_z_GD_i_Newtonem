@@ -21,6 +21,7 @@ Dla każdej metody porównano:
 •	czas działania,
 •	końcową wartość funkcji straty,
 •	accuracy na zbiorze testowym.
+
 W części rozszerzonej dodano:
 - porównanie kosztu pamięciowego NCG i Newtona,
 - porównanie wariantów NCG: FR, PRP+ i HS,
