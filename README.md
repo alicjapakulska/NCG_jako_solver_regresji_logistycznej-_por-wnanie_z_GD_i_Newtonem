@@ -33,7 +33,7 @@ W części rozszerzonej dodano:
 
 ├── requirements.txt
 
-├── Projekt_Metody.ipynb
+├── Projekt_6.ipynb
 
 ├── test_validation.py
 
@@ -47,9 +47,9 @@ W części rozszerzonej dodano:
 
 •	requirements.txt — lista wymaganych bibliotek,
 
-•	notebooks/Projekt_Metody.ipynb — notebook demonstracyjny z implementacją metod, wynikami i wykresami,
+•	Projekt_6.ipynb — notebook demonstracyjny z implementacją metod, wynikami i wykresami,
 
-•	tests/test_validation.py — testy lub przykłady walidacyjne,
+•	test_validation.py — testy lub przykłady walidacyjne,
 
 •	report.pdf — raport techniczny,
 
