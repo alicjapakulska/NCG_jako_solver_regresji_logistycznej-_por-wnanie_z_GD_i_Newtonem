@@ -21,25 +21,24 @@ Dla każdej metody porównano:
 •	czas działania,
 •	końcową wartość funkcji straty,
 •	accuracy na zbiorze testowym.
-Projekt zawiera również rozszerzenia, takie jak porównanie wariantów metody NCG, analiza wpływu regularyzacji L2, porównanie kosztu pamięciowego metod oraz porównanie własnej implementacji z biblioteką referencyjną.
+W części rozszerzonej dodano:
+- porównanie kosztu pamięciowego NCG i Newtona,
+- porównanie wariantów NCG: FR, PRP+ i HS,
+- eksperyment z regularyzacją L2,
+- porównanie z `sklearn.linear_model.LogisticRegression`.
 
-# Struktura projektu
-
-project/
-
+# Struktura
 ├── README.md
 
 ├── requirements.txt
 
-├── notebooks/
-
-│   └── Projekt_Metody.ipynb
+├── Projekt_Metody.ipynb
 
 ├── tests/
 
 │   └── test_validation.py
 
-├── report.pdf
+├── raport.pdf
 
 └── presentation.pdf
 
@@ -139,17 +138,14 @@ Metoda Newtona-Raphsona wykorzystuje gradient oraz hesjan funkcji straty. Kierun
 
 # Wyniki
 
-Dla każdej metody zapisano:
+Wyniki znajdują się w notebooku oraz w raporcie technicznym. Obejmują:
 
-•	liczbę iteracji,
-
-•	czas CPU,
-
-•	końcową wartość funkcji straty,
-
-•	accuracy na zbiorze testowym.
-
-Wyniki znajdują się w notebooku demonstracyjnym oraz w raporcie technicznym. Notebook zawiera także wykresy pokazujące zmianę wartości funkcji straty i normy gradientu w kolejnych iteracjach.
+- tabelę porównawczą metod,
+- wykresy wartości funkcji straty,
+- wykresy normy gradientu,
+- analizę wariantów NCG,
+- eksperyment z regularyzacją L2,
+- porównanie z `sklearn.linear_model.LogisticRegression`.
 
 # Walidacja implementacji
 
