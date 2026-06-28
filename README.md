@@ -35,9 +35,7 @@ W części rozszerzonej dodano:
 
 ├── Projekt_Metody.ipynb
 
-├── tests/
-
-│   └── test_validation.py
+├── test_validation.py
 
 ├── raport.pdf
 
