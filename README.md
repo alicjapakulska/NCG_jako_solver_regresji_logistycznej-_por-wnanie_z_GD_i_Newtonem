@@ -37,9 +37,9 @@ W części rozszerzonej dodano:
 
 ├── test_validation.py
 
-├── raport.pdf
+├── Raport_projekt_6.pdf
 
-└── presentation.pdf
+└── Prezentacja projekt 6.pdf
 
 # Opis plików:
 
@@ -51,9 +51,9 @@ W części rozszerzonej dodano:
 
 •	test_validation.py — testy lub przykłady walidacyjne,
 
-•	report.pdf — raport techniczny,
+•	Raport_projekt_6.pdf — raport techniczny,
 
-•	presentation.pdf — krótka prezentacja wyników.
+•	Prezentacja projekt 6.pdf — krótka prezentacja wyników.
 
 # Wymagania
 
@@ -105,7 +105,7 @@ pip install -r requirements.txt
 
 Po instalacji bibliotek można uruchomić notebook:
 
-jupyter notebook notebooks/Projekt_Metody.ipynb
+jupyter notebook notebooks/Projekt_6.ipynb
 
 # Dane
 
@@ -165,9 +165,9 @@ Projekt zawiera porównanie własnej implementacji z biblioteką referencyjną s
 # Raport i prezentacja
 Szczegółowy opis metod, wzory matematyczne, wyniki eksperymentów oraz wnioski znajdują się w pliku:
 
-report.pdf
+Raport_projekt_6.pdf
 
 Krótka prezentacja wyników znajduje się w pliku:
 
-presentation.pdf
+Prezentacja projekt 6.pdf
 
